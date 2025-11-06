@@ -21,6 +21,6 @@ menavigasi aplikasi, menjawab pertanyaan, dan melihat hasil kuis mereka secara r
 
 ## Screenshot Aplikasi
 
-<img src="./assets/images/home.png" width="300">
-<img src="./assets/images/questions.png" width="300">
-<img src="./assets/images/score.png" width="300">
+<img src="./assets/images/home.png" width="200">
+<img src="./assets/images/questions.png" width="200">
+<img src="./assets/images/score.png" width="200">
