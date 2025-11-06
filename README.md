@@ -20,3 +20,6 @@ menavigasi aplikasi, menjawab pertanyaan, dan melihat hasil kuis mereka secara r
 - [Referensi Figma](https://www.figma.com/community/file/1388742897600023965)
 
 ## Screenshot Aplikasi
+![Home Screen](./assets/images/home.png)
+![Quiz Screen](./assets/images/questions.png)
+![Result Screen](./assets/images/score.png)
