@@ -2,9 +2,9 @@
 
 ## Profile
 
-**Nama:** Rafi Fauzan Tsany Lubis
-**NIM:** 231401120
-**KOM:** C
+* **Nama:** Rafi Fauzan Tsany Lubis
+* **NIM:** 231401120
+* **KOM:** C
 
 ## Deskripsi Aplikasi
 
