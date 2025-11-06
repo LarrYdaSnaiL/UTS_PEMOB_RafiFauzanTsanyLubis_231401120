@@ -40,9 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final textTheme = Theme
-        .of(context)
-        .textTheme;
+    final textTheme = Theme.of(context).textTheme;
     return Scaffold(
       body: SafeArea(
         child: ListView(
@@ -68,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
       children: [
         const CircleAvatar(
           radius: 24,
-          backgroundImage: AssetImage('assets/images/profile.jpg'),
+          backgroundImage: AssetImage('assets/images/picture.jpg'),
         ),
         const SizedBox(width: 12),
         Column(
@@ -91,28 +89,18 @@ class _HomeScreenState extends State<HomeScreen> {
           label: Text(
             '160',
             style: TextStyle(
-              color: Theme
-                  .of(context)
-                  .colorScheme
-                  .primary,
+              color: Theme.of(context).colorScheme.primary,
               fontWeight: FontWeight.bold,
             ),
           ),
           avatar: Icon(
             Icons.diamond,
-            color: Theme
-                .of(context)
-                .colorScheme
-                .primary,
+            color: Theme.of(context).colorScheme.primary,
             size: 16,
           ),
-          backgroundColor: Theme
-              .of(
+          backgroundColor: Theme.of(
             context,
-          )
-              .colorScheme
-              .primary
-              .withOpacity(0.1),
+          ).colorScheme.primary.withOpacity(0.1),
           padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
         ),
       ],
@@ -123,10 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: Theme
-            .of(context)
-            .colorScheme
-            .primary,
+        color: Theme.of(context).colorScheme.primary,
         borderRadius: BorderRadius.circular(20),
       ),
       child: Column(
@@ -134,11 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           Text(
             'Test Your Knowledge with Quizzes',
-            style: Theme
-                .of(context)
-                .textTheme
-                .titleLarge
-                ?.copyWith(
+            style: Theme.of(context).textTheme.titleLarge?.copyWith(
               color: Colors.white,
               fontWeight: FontWeight.bold,
             ),
@@ -146,13 +127,9 @@ class _HomeScreenState extends State<HomeScreen> {
           const SizedBox(height: 8),
           Text(
             "You're just looking for a playful way to learn something new, quizzes are designed to entertain and educate.",
-            style: Theme
-                .of(
+            style: Theme.of(
               context,
-            )
-                .textTheme
-                .bodyMedium
-                ?.copyWith(color: Colors.white70),
+            ).textTheme.bodyMedium?.copyWith(color: Colors.white70),
           ),
           const SizedBox(height: 16),
           ElevatedButton(
@@ -163,10 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
-              foregroundColor: Theme
-                  .of(context)
-                  .colorScheme
-                  .primary,
+              foregroundColor: Theme.of(context).colorScheme.primary,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(12),
               ),
@@ -186,10 +160,7 @@ class _HomeScreenState extends State<HomeScreen> {
         suffixIcon: Container(
           margin: const EdgeInsets.all(6),
           decoration: BoxDecoration(
-            color: Theme
-                .of(context)
-                .colorScheme
-                .primary,
+            color: Theme.of(context).colorScheme.primary,
             borderRadius: BorderRadius.circular(12),
           ),
           child: const Icon(Icons.filter_list, color: Colors.white),

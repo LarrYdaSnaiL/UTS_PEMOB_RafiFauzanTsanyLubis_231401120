@@ -6,7 +6,7 @@ class DummyData {
     QuizCategory(
       id: 'html',
       name: 'HTML',
-      iconPath: '../../assets/icons/html.svg',
+      iconPath: 'assets/icons/html.svg',
       color: Colors.orange.shade100,
       questions: [
         Question(
@@ -42,7 +42,7 @@ class DummyData {
     QuizCategory(
       id: 'js',
       name: 'JAVASCRIPT',
-      iconPath: '../../assets/icons/js.svg',
+      iconPath: 'assets/icons/js.svg',
       color: Colors.yellow.shade100,
       questions: [
         Question(
@@ -67,7 +67,7 @@ class DummyData {
     QuizCategory(
       id: 'react',
       name: 'REACT',
-      iconPath: '../../assets/icons/react.svg',
+      iconPath: 'assets/icons/react.svg',
       color: Colors.blue.shade100,
       questions: [
         Question(
@@ -86,7 +86,7 @@ class DummyData {
     QuizCategory(
       id: 'cpp',
       name: 'C++',
-      iconPath: '../../assets/icons/cpp.svg',
+      iconPath: 'assets/icons/cpp.svg',
       color: Colors.blue.shade300,
       questions: [
         Question(
@@ -106,7 +106,7 @@ class DummyData {
     QuizCategory(
       id: 'python',
       name: 'PYTHON',
-      iconPath: '../../assets/icons/python.svg',
+      iconPath: 'assets/icons/python.svg',
       color: Colors.blue.shade200,
       questions: [
         Question(
